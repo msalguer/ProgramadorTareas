@@ -1,0 +1,1554 @@
+<?xml version="1.0"?>
+<RBProject version="2013r2" FormatVersion="2" MinIDEVersion="20070100">
+<block type="Project" ID="0">
+ <ProjectSavedInVers>2013.02</ProjectSavedInVers>
+ <ProjMgrUser></ProjMgrUser>
+ <ProjMgrServer></ProjMgrServer>
+ <MajorVersion>1</MajorVersion>
+ <MinorVersion>0</MinorVersion>
+ <SubVersion>0</SubVersion>
+ <Release>0</Release>
+ <NonRelease>0</NonRelease>
+ <Region></Region>
+ <ShortVersion></ShortVersion>
+ <LongVersion></LongVersion>
+ <InfoVersion></InfoVersion>
+ <AutoIncVersion>0</AutoIncVersion>
+ <DefaultViewID>1609285631</DefaultViewID>
+ <ProjectType>0</ProjectType>
+ <DefaultLanguage>0</DefaultLanguage>
+ <CurrentLanguage>0</CurrentLanguage>
+ <DefaultEncoding>0</DefaultEncoding>
+ <BuildFlags>2320</BuildFlags>
+ <UseBuildsFolder>1</UseBuildsFolder>
+ <WebApp>0</WebApp>
+ <Icon>
+ </Icon>
+ <MacCreator></MacCreator>
+ <BuildCarbonName>ProgramadorTareas</BuildCarbonName>
+ <BuildCarbonMachOName>ProgramadorTareas</BuildCarbonMachOName>
+ <BundleIdentifier>com.msc.programadortareas</BundleIdentifier>
+ <BuildSize>4194304</BuildSize>
+ <BuildMinSize>2097152</BuildMinSize>
+ <BuildSizeAsString>4096</BuildSizeAsString>
+ <BuildMinSizeAsString>2048</BuildMinSizeAsString>
+ <WinMDICaption></WinMDICaption>
+ <BuildWinName>ProgramadorTareas.exe</BuildWinName>
+ <BuildWinMDI>0</BuildWinMDI>
+ <BuildWinCompanyName>MSC</BuildWinCompanyName>
+ <BuildWinProductName></BuildWinProductName>
+ <BuildWinInternalName></BuildWinInternalName>
+ <UseGDIPlus>0</UseGDIPlus>
+ <BuildLinuxX86Name>ProgramadorTareas</BuildLinuxX86Name>
+ <DebuggerCommandLine></DebuggerCommandLine>
+ <WebPort>0</WebPort>
+ <WebSecurePort>443</WebSecurePort>
+ <WebProtocol>0</WebProtocol>
+ <WebDebugPort>8080</WebDebugPort>
+ <WebUseIntegratedBrowser>0</WebUseIntegratedBrowser>
+ <WebLaunchString>Launching...</WebLaunchString>
+ <WebHTMLHeader></WebHTMLHeader>
+ <WebDisconnectString>The application has gone off-line. Please try again later.</WebDisconnectString>
+</block>
+<block type="Module" ID="1076035583">
+ <ObjName>App</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>Application</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <IsApplicationObject>1</IsApplicationObject>
+ <Compatibility></Compatibility>
+ <HookInstance>
+  <ItemName>Open</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Open()</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <PropertyVal Name="MenuBar"><Hex bytes="1">30</Hex></PropertyVal>
+ <ViewBehavior>
+ </ViewBehavior>
+ <Constant>
+  <ItemName>kFileQuitShortcut</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemName>kFileQuitShortcut</ItemName>
+  <ItemType>0</ItemType>
+  <ItemDef></ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>1</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>Cmd+Q</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>5</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>Ctrl+Q</ItemDef>
+  </ConstantInstance>
+ </Constant>
+ <Constant>
+  <ItemName>kFileQuit</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemName>kFileQuit</ItemName>
+  <ItemType>0</ItemType>
+  <ItemDef>&amp;Salir</ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>2</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>&amp;Salir</ItemDef>
+  </ConstantInstance>
+ </Constant>
+ <Constant>
+  <ItemName>kEditClear</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemName>kEditClear</ItemName>
+  <ItemType>0</ItemType>
+  <ItemDef>&amp;Borrar</ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>2</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>&amp;Borrar</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>5</ItemPlatform>
+   <ItemLanguage>0</ItemLanguage>
+   <ItemDef>&amp;Borrar</ItemDef>
+  </ConstantInstance>
+ </Constant>
+</block>
+<block type="BuildAutomation" ID="363558911">
+ <ObjName>Build Automation</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="971354111">
+ <ObjName>Linux</ObjName>
+ <ObjContainerID>363558911</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="605007871">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>971354111</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="797691903">
+ <ObjName>Mac OS X</ObjName>
+ <ObjContainerID>363558911</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="795914239">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>797691903</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="1488570367">
+ <ObjName>Windows</ObjName>
+ <ObjContainerID>363558911</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="1393776639">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>1488570367</ObjContainerID>
+</block>
+<block type="Module" ID="169095167">
+ <ObjName>Var</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>0</IsClass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <InheritsFrom>Object</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Object</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <InheritsFrom>Object</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Object</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Object</InheritsFrom>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="Window" ID="1609285631">
+ <ObjName>Window1</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>Window</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <HookInstance>
+  <ItemName>Open</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Open()</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Dim db As New SQLiteDatabase</SourceLine>
+   <SourceLine>Dim dbFile As FolderItem = GetFolderItem("ProgramadorTareas.sqlite")</SourceLine>
+   <SourceLine>Dim ControlDatos as new DataControl</SourceLine>
+   <SourceLine>dim TextoSQL as string</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>If dbFile &lt;&gt; Nil And dbFile.Exists Then</SourceLine>
+   <SourceLine>db.DatabaseFile = dbFile</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>If db.Connect Then</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>db.DatabaseFile=dbFile</SourceLine>
+   <SourceLine>ControlDatos.Database=db</SourceLine>
+   <SourceLine>Window1.Datacontrol1.Database=ControlDatos.database</SourceLine>
+   <SourceLine>Window1.Datacontrol1.TableName="Tareas"</SourceLine>
+   <SourceLine>Window1.Datacontrol1.SQLQuery="select * from Tareas;"</SourceLine>
+   <SourceLine>Window1.Datacontrol1.RunQuery</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'Crea Base de Datos en directorio actual</SourceLine>
+   <SourceLine>db.DatabaseFile = dbFile</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>dbFile = New FolderItem("ProgramadorTareas.sqlite")</SourceLine>
+   <SourceLine>db.DatabaseFile = dbFile</SourceLine>
+   <SourceLine>If not db.CreateDatabaseFile Then</SourceLine>
+   <SourceLine>MsgBox("Database not created. Error: " + db.ErrorMessage)</SourceLine>
+   <SourceLine>exit </SourceLine>
+   <SourceLine>End If</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>TextoSQL="CREATE TABLE [Tareas] ([IdTarea] INTEGER  PRIMARY KEY AUTOINCREMENT NOT NULL,[NombreTarea] VarChar(50)  NOT NULL,[DescripcionTarea] VarChar  NULL,[DiaSemana] VarChar  NULL,[DiaMes] VarChar(2)  NULL,[Hora] VARCHAR(5)  NULL,[ComandoaEjecutar] VARCHAR(255)  NULL,[UltimaEjecucionTarea] VARCHAR(20)  NULL);"</SourceLine>
+   <SourceLine>db.SQLExecute TextoSQL</SourceLine>
+   <SourceLine>db.Commit</SourceLine>
+   <SourceLine>db.DatabaseFile = dbFile</SourceLine>
+   <SourceLine>ControlDatos.Database=db</SourceLine>
+   <SourceLine>Window1.Datacontrol1.Database=ControlDatos.database</SourceLine>
+   <SourceLine>Window1.Datacontrol1.TableName="Tareas"</SourceLine>
+   <SourceLine>Window1.Datacontrol1.SQLQuery="select * from Tareas;"</SourceLine>
+   <SourceLine>Window1.Datacontrol1.RunQuery</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>goto llenarlista</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'Esto no es necesario para que funcione correctamente, insertaría un primer registro en la tabla Tareas</SourceLine>
+   <SourceLine>if Window1.Datacontrol1.RecordSet.RecordCount=0 then 'Hay que insertar al menos un registro</SourceLine>
+   <SourceLine>TextoSQL="insert into Tareas values(NULL,'Tarea Ejemplo','','','','','','');"</SourceLine>
+   <SourceLine>db.SQLExecute TextoSQL</SourceLine>
+   <SourceLine>db.Commit</SourceLine>
+   <SourceLine>Window1.Datacontrol1.RunQuery</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>llenarlista:</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>OperarConLista(datacontrol1, ListaTareas,"Llenar","")</SourceLine>
+   <SourceLine>'ListaTareas.CellType(2,0)=ListaTareas.TypePopupMenu</SourceLine>
+   <SourceLine>Window1.Show</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <Method>
+  <ItemName>EjecutarTareas</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub EjecutarTareas()</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Dim NumFila as Integer</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>dim hora as integer, minuto as integer, segundo as integer</SourceLine>
+   <SourceLine>'dim hora2 as integer, minuto2 as integer</SourceLine>
+   <SourceLine>dim minutoprocesado as integer</SourceLine>
+   <SourceLine>dim fecha as new date</SourceLine>
+   <SourceLine>dim DiaSemana as integer, DiaSemana2 as String</SourceLine>
+   <SourceLine>Dim DiaMes as integer, DiaMes2 as integer</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>hora=fecha.Hour</SourceLine>
+   <SourceLine>minuto=fecha.minute</SourceLine>
+   <SourceLine>segundo=fecha.second</SourceLine>
+   <SourceLine>DiaSemana=fecha.DayOfWeek</SourceLine>
+   <SourceLine>DiaMes=fecha.Day</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'msgbox "Dia Semana: " + str(DiaSemana)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Tiempo.Text=str(hora)+":"+str(minuto)+":"+str(segundo)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Static HoraCorta as string</SourceLine>
+   <SourceLine>HoraCorta=str(fecha.hour,"00") + ":" + str(fecha.minute,"00")</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'minutoprocesado=99 'Para que nunca se de ´´ solo haria entonces uno</SourceLine>
+   <SourceLine>'try</SourceLine>
+   <SourceLine>'if datacontrol1.recordset.EOF then</SourceLine>
+   <SourceLine>'exit</SourceLine>
+   <SourceLine>'end if</SourceLine>
+   <SourceLine>if datacontrol1.recordset=Nil then 'No hay registros, o no hay base de datos</SourceLine>
+   <SourceLine>exit</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>datacontrol1.recordset.movefirst 'Para ejecutar esta sentencia debe de haber una base de datos</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>NumFila=0  'Para posicionarnos luego en la tarea correspondiente en la lista</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>do  until datacontrol1.recordset.eof</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'hora2=datacontrol1.recordset.field("Hora").Value</SourceLine>
+   <SourceLine>'minuto2=datacontrol1.recordset.field("Minuto").Value</SourceLine>
+   <SourceLine>Static HoraCorta2 as string</SourceLine>
+   <SourceLine>if datacontrol1.recordset.field("Hora").Value="" or datacontrol1.recordset.field("Hora").Value.IsNull then</SourceLine>
+   <SourceLine>HoraCorta2=""</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>if datacontrol1.recordset.field("Hora").Value="" or datacontrol1.recordset.field("Hora").Value.IsNull then</SourceLine>
+   <SourceLine>HoraCorta2=""</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>HoraCorta2=datacontrol1.recordset.field("Hora").Value</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>DiaSemana2=datacontrol1.recordset.field("DiaSemana").Value</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>tiempo1.text=HoraCorta 'str(hora)+":"+str(minuto)</SourceLine>
+   <SourceLine>tiempo2.text=HoraCorta2 'str(hora2) + ":"+str(minuto2)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>static FechaHora as string</SourceLine>
+   <SourceLine>FechaHora=fecha.ShortDate + "  " +fecha.ShortTime</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>static ProcesaDia as boolean =false</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>select case DiaSemana2</SourceLine>
+   <SourceLine>case "Todos"</SourceLine>
+   <SourceLine>ProcesaDia=true</SourceLine>
+   <SourceLine>case "Lunes"</SourceLine>
+   <SourceLine>if DiaSemana=2 then</SourceLine>
+   <SourceLine>ProcesaDia=true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>case "Martes"</SourceLine>
+   <SourceLine>if Diasemana=3 then</SourceLine>
+   <SourceLine>ProcesaDia=true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>case "Miercoles"</SourceLine>
+   <SourceLine>if DiaSemana=4 then</SourceLine>
+   <SourceLine>ProcesaDia=true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>case "Jueves"</SourceLine>
+   <SourceLine>if DiaSemana=5 then</SourceLine>
+   <SourceLine>ProcesaDia=true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>case "Viernes"</SourceLine>
+   <SourceLine>if DiaSemana=6 then</SourceLine>
+   <SourceLine>ProcesaDia=true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>case "Sabado"</SourceLine>
+   <SourceLine>if DiaSemana=7 then</SourceLine>
+   <SourceLine>ProcesaDia=true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>case "Domingo"</SourceLine>
+   <SourceLine>if DiaSemana=1 then</SourceLine>
+   <SourceLine>ProcesaDia=true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>case "L-V"</SourceLine>
+   <SourceLine>if DiaSemana=2 or DiaSemana=3 or DiaSemana=4 or DiaSemana=5 or DiaSemana=6 then</SourceLine>
+   <SourceLine>ProcesaDia=True</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>end select</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'DIA MES</SourceLine>
+   <SourceLine>if datacontrol1.recordset.field("DiaMes").Value="" or datacontrol1.recordset.field("DiaMes").Value.IsNull then</SourceLine>
+   <SourceLine>DiaMes2=0</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>DiaMes2=datacontrol1.recordset.field("DiaMes").Value</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Static ProcesaDiaMes as boolean=false</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if DiaMes2=0 then</SourceLine>
+   <SourceLine>ProcesaDiaMes=true</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>if DiaMes=DiaMes2 then</SourceLine>
+   <SourceLine>ProcesaDiaMes=true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if ProcesaDia=true and ProcesaDiaMes=true and HoraCorta=HoraCorta2 and not (minutoprocesado=minuto) then</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>static textotarea as String, TextoLog as String, TextoComando as String</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>textotarea= datacontrol1.recordset.field("NombreTarea")</SourceLine>
+   <SourceLine>TextoLog=FechaHora + Chr(13) + "TAREA: " + textotarea + Chr(13)</SourceLine>
+   <SourceLine>EscribirLog("c:\xojo\ProgramadorTareas.log","--------------------------------------------" + chr(13))</SourceLine>
+   <SourceLine>EscribirLog("c:\xojo\ProgramadorTareas.log",TextoLog+chr(13))</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'msgbox ("Procesa programación. Nombre Tarea:" + textotarea)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'minutoprocesado=minuto</SourceLine>
+   <SourceLine>'Ejecuta el Shell</SourceLine>
+   <SourceLine>Dim sh As New Shell</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>TextoComando=datacontrol1.recordset.field("ComandoaEjecutar")</SourceLine>
+   <SourceLine>TextoLog="COMANDO A EJECUTAR: " + Chr(13) +TextoComando + Chr(13)</SourceLine>
+   <SourceLine>EscribirLog("c:\xojo\ProgramadorTareas.log",TextoLog+chr(13))</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>sh.Execute(datacontrol1.recordset.field("ComandoaEjecutar"))</SourceLine>
+   <SourceLine>TextArea1.Text = sh.Result</SourceLine>
+   <SourceLine>TextoLog=FechaHora +  Chr(13) + "RESULTADO: " + Chr(13) +TextArea1.Text + Chr(13)</SourceLine>
+   <SourceLine>EscribirLog("c:\xojo\ProgramadorTareas.log",TextoLog+chr(13))</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>datacontrol1.recordset.edit</SourceLine>
+   <SourceLine>datacontrol1.recordset.Field("UltimaEjecucionTarea").Value=FechaHora</SourceLine>
+   <SourceLine>datacontrol1.recordset.update</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'ListaTareas.Cell(NumFila,8)=FechaHora</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>datacontrol1.RunQuery  'Para que actualice el datacontrol principal</SourceLine>
+   <SourceLine>OperarConLista(Datacontrol1,ListaTareas,"Llenar","")</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>NumFila=NumFila+1</SourceLine>
+   <SourceLine>datacontrol1.recordset.movenext</SourceLine>
+   <SourceLine>loop</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <PropertyVal Name="ImplicitInstance">True</PropertyVal>
+ <PropertyVal Name="MenuBar">0</PropertyVal>
+ <PropertyVal Name="MacProcID"><Hex bytes="1">30</Hex></PropertyVal>
+ <PropertyVal Name="MinimizeButton">True</PropertyVal>
+ <PropertyVal Name="MaximizeButton">False</PropertyVal>
+ <PropertyVal Name="LiveResize">True</PropertyVal>
+ <PropertyVal Name="Resizeable">False</PropertyVal>
+ <PropertyVal Name="CloseButton">True</PropertyVal>
+ <PropertyVal Name="MenuBarVisible">True</PropertyVal>
+ <PropertyVal Name="FullScreen">False</PropertyVal>
+ <PropertyVal Name="Visible">True</PropertyVal>
+ <PropertyVal Name="Title">Programador de Tareas</PropertyVal>
+ <PropertyVal Name="Backdrop">0</PropertyVal>
+ <PropertyVal Name="BackColor"><Hex bytes="8">3136373737323135</Hex></PropertyVal>
+ <PropertyVal Name="HasBackColor">False</PropertyVal>
+ <PropertyVal Name="Composite">False</PropertyVal>
+ <PropertyVal Name="Frame"><Hex bytes="1">30</Hex></PropertyVal>
+ <PropertyVal Name="MaxHeight"><Hex bytes="5">3332303030</Hex></PropertyVal>
+ <PropertyVal Name="MaxWidth"><Hex bytes="5">3332303030</Hex></PropertyVal>
+ <PropertyVal Name="MinHeight"><Hex bytes="2">3634</Hex></PropertyVal>
+ <PropertyVal Name="MinWidth"><Hex bytes="2">3634</Hex></PropertyVal>
+ <PropertyVal Name="Height"><Hex bytes="3">333538</Hex></PropertyVal>
+ <PropertyVal Name="Width"><Hex bytes="3">373637</Hex></PropertyVal>
+ <PropertyVal Name="Placement"><Hex bytes="1">31</Hex></PropertyVal>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Interfaces</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Placement</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <EditorType>Enum</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - Parent Window</ItemDef>
+    <ItemDef>2 - Main Screen</ItemDef>
+    <ItemDef>3 - Parent Window Screen</ItemDef>
+    <ItemDef>4 - Stagger</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Width</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>600</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Height</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>400</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaxWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaxHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Frame</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <EditorType>Enum</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+   <Enumeration>
+    <ItemDef>0 - Document</ItemDef>
+    <ItemDef>1 - Movable Modal</ItemDef>
+    <ItemDef>2 - Modal Dialog</ItemDef>
+    <ItemDef>3 - Floating Window</ItemDef>
+    <ItemDef>4 - Plain Box</ItemDef>
+    <ItemDef>5 - Shadowed Box</ItemDef>
+    <ItemDef>6 - Rounded Window</ItemDef>
+    <ItemDef>7 - Global Floating Window</ItemDef>
+    <ItemDef>8 - Sheet Window</ItemDef>
+    <ItemDef>9 - Metal Window</ItemDef>
+    <ItemDef>10 - Drawer Window</ItemDef>
+    <ItemDef>11 - Modeless Dialog</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Composite</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasBackColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>BackColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>&amp;hFFFFFF</PropertyValue>
+   <ItemType>Color</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Backdrop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <ItemType>Picture</ItemType>
+   <EditorType>Picture</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Title</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>Untitled</PropertyValue>
+   <ItemType>String</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Visible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FullScreen</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBarVisible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>CloseButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Resizeable</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LiveResize</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaximizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinimizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MacProcID</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <ItemType>MenuBar</ItemType>
+   <EditorType>MenuBar</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ImplicitInstance</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+   <EditorType>Boolean</EditorType>
+   <InheritsFrom>Window</InheritsFrom>
+  </ViewProperty>
+ </ViewBehavior>
+ <ControlBehavior>
+  <Superclass>GroupBox</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>PushButton</Superclass>
+  <HookInstance>
+   <ItemName>Action</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Action()</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>if trim(NuevaTarea.Text)&lt;&gt;"" then</SourceLine>
+    <SourceLine>OperarConLista(Datacontrol1, ListaTareas, "InsertarFila",NuevaTarea.Text)</SourceLine>
+    <SourceLine>else</SourceLine>
+    <SourceLine>msgbox "Debe de insertar un nombre de tarea para poder crearla"</SourceLine>
+    <SourceLine>end if</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>NuevaTarea.Text=""</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>TextField</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>DataControl</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>Label</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>PushButton</Superclass>
+  <HookInstance>
+   <ItemName>Action</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Action()</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>if ListaTareas.Listindex&lt;&gt;-1 then</SourceLine>
+    <SourceLine>OperarConLista(Datacontrol1, ListaTareas, "BorrarFila",str(ListaTareas.Listindex)+","+ListaTareas.cell(ListaTareas.Listindex,2))</SourceLine>
+    <SourceLine>else</SourceLine>
+    <SourceLine>msgbox "Debe de seleccionar una tarea para poder borrarla"</SourceLine>
+    <SourceLine>end if</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>GroupBox</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>Listbox</Superclass>
+  <HookInstance>
+   <ItemName>Change</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Change()</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>CellLostFocus</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub CellLostFocus(row as Integer, column as Integer)</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>if ListaTareas.Heading(Column)="Hora" then</SourceLine>
+    <SourceLine>static Campo as string</SourceLine>
+    <SourceLine>Campo=ListaTareas.Cell(row,column)</SourceLine>
+    <SourceLine>ListaTareas.Cell(row,column)=FormatearCampo("Texto","HoraCorta",Campo)</SourceLine>
+    <SourceLine>end if</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>OperarConLista(Datacontrol1,ListaTareas,"ActualizarCelda","")</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>ConstructContextualMenu</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Function ConstructContextualMenu(base as MenuItem, x as Integer, y as Integer) As Boolean</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>base.Append(New MenuItem ("Lunes"))</SourceLine>
+    <SourceLine>base.Append(New MenuItem ("Martes"))</SourceLine>
+    <SourceLine>base.Append(New MenuItem ("Miercoles"))</SourceLine>
+    <SourceLine>base.Append(New MenuItem ("Jueves"))</SourceLine>
+    <SourceLine>base.Append(New MenuItem ("Viernes"))</SourceLine>
+    <SourceLine>base.Append(New MenuItem ("Sabado"))</SourceLine>
+    <SourceLine>base.Append(New MenuItem ("Domingo"))</SourceLine>
+    <SourceLine>base.Append(New MenuItem ("L-V"))</SourceLine>
+    <SourceLine>base.Append(New MenuItem ("Todos"))</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Function</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>ContextualMenuAction</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Function ContextualMenuAction(hitItem as MenuItem) As Boolean</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>if ListaTareas.Listindex=-1 then</SourceLine>
+    <SourceLine>msgbox "Debe seleccionar una tarea para asignar día de la semana"</SourceLine>
+    <SourceLine>else</SourceLine>
+    <SourceLine>dim nombreitem as string</SourceLine>
+    <SourceLine>nombreitem=hitItem.Text</SourceLine>
+    <SourceLineBreakpoint>6</SourceLineBreakpoint>
+    <SourceLine>ListaTareas.cell(ListaTareas.Listindex,2)=nombreitem</SourceLine>
+    <SourceLine>OperarConLista(Datacontrol1,ListaTareas,"ActualizarCelda","")</SourceLine>
+    <SourceLine>end if</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Function</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>CellClick</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Function CellClick(row as Integer, column as Integer, x as Integer, y as Integer) As Boolean</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Function</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>CellAction</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub CellAction(row As Integer, column As Integer)</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>Timer</Superclass>
+  <HookInstance>
+   <ItemName>Action</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Action()</SourceLine>
+    <SourceLine>'dim db as database</SourceLine>
+    <SourceLine>'dim tabla as DatabaseQuery</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>'db=SQLiteDatabase("ProgramadorTareas")</SourceLine>
+    <SourceLine>'tabla= SQLiteDatabase ("ProgramadorTareas")</SourceLine>
+    <SourceLine>'select * from tareas")</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>'tabla.movefirst</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>'tabla.Database=datacontrol1.database.DatabaseName</SourceLine>
+    <SourceLine>'tabla.database=ProgramadorTareas</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>'tabla.SQLQuery="Select IdTarea from Tareas where IdTarea=1;"</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>'dim campo as DatabaseField</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>'msgbox campo.Value</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>EtiquetaTimer:</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>EjecutarTareas()</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>TextField</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>TextField</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>TextArea</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>TextField</Superclass>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>PushButton</Superclass>
+  <HookInstance>
+   <ItemName>Action</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Action()</SourceLine>
+    <SourceLine>'goto EtiquetaTimer</SourceLine>
+    <SourceLine>EjecutarTareas() 'Ejecuta el código del Timer</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <Control>
+  <ControlClass>GroupBox</ControlClass>
+  <ItemName>GroupBox</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Caption">Nueva Tarea</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">35</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3538</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="3">333038</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="3">323632</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="2">3237</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">GroupBox</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">GroupBox1</PropertyVal>
+  <ControlIndex>0</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>PushButton</ControlClass>
+  <ItemName>PushButton</ItemName>
+  <PropertyVal Name="InitialParent">GroupBox1</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="ButtonStyle">0</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Cancel">False</PropertyVal>
+  <PropertyVal Name="Default">False</PropertyVal>
+  <PropertyVal Name="Caption">Insertar Tarea</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3232</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="2">3830</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="3">323838</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="3">323434</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">PushButton</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">InsertarTarea</PropertyVal>
+  <ControlIndex>1</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>TextField</ControlClass>
+  <ItemName>TextField</ItemName>
+  <PropertyVal Name="InitialParent">GroupBox1</PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutomaticallyCheckSpelling">False</PropertyVal>
+  <PropertyVal Name="Alignment"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="AcceptTabs">False</PropertyVal>
+  <PropertyVal Name="LimitText"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="ReadOnly">False</PropertyVal>
+  <PropertyVal Name="Mask"></PropertyVal>
+  <PropertyVal Name="Text"></PropertyVal>
+  <PropertyVal Name="CueText"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Format"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="BackColor"><Hex bytes="8">3136373737323135</Hex></PropertyVal>
+  <PropertyVal Name="TextColor"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="Password">False</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">31</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3232</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="3">313933</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="3">323838</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="2">3339</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">TextField</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">NuevaTarea</PropertyVal>
+  <ControlIndex>2</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>DataControl</ControlClass>
+  <ItemName>DataControl</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Commit">True</PropertyVal>
+  <PropertyVal Name="ReadOnly">False</PropertyVal>
+  <PropertyVal Name="SQLQuery">select * from tareas;</PropertyVal>
+  <PropertyVal Name="TableName">Tareas</PropertyVal>
+  <PropertyVal Name="Database">902307839</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">False</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="TextColor"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="TextAlign"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="Caption">Sin título</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">31</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3235</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="3">323030</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="2">3133</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="3">343637</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">DataControl</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">DataControl1</PropertyVal>
+  <ControlIndex>3</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>Label</ControlClass>
+  <ItemName>Label</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">True</PropertyVal>
+  <PropertyVal Name="TextUnit">2</PropertyVal>
+  <PropertyVal Name="TextSize">1.6e+1</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Transparent">False</PropertyVal>
+  <PropertyVal Name="Selectable">False</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Multiline">False</PropertyVal>
+  <PropertyVal Name="TextColor"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="TextAlign"><Hex bytes="1">31</Hex></PropertyVal>
+  <PropertyVal Name="Text">Programador de Tareas</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">32</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3238</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="3">323732</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="2">3133</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="3">323030</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">Label</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">Label1</PropertyVal>
+  <ControlIndex>4</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>PushButton</ControlClass>
+  <ItemName>PushButton</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="ButtonStyle">0</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Cancel">False</PropertyVal>
+  <PropertyVal Name="Default">False</PropertyVal>
+  <PropertyVal Name="Caption">Borrar Tarea</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">34</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3232</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="2">3837</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="3">323838</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="3">333437</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">PushButton</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">BorrarTarea</PropertyVal>
+  <ControlIndex>5</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>GroupBox</ControlClass>
+  <ItemName>GroupBox</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Caption">Log Ultima Ejecucion</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">36</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3838</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="3">323830</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="3">323632</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="3">343637</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">GroupBox</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">GroupBox2</PropertyVal>
+  <ControlIndex>6</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>Listbox</ControlClass>
+  <ItemName>Listbox</ItemName>
+  <PropertyVal Name="DrawRowBackPastLastCol">True</PropertyVal>
+  <PropertyVal Name="Row_OddColor"><Hex bytes="8">3135353934343934</Hex></PropertyVal>
+  <PropertyVal Name="Row_EvenColor"><Hex bytes="8">3136373737323135</Hex></PropertyVal>
+  <PropertyVal Name="HeaderTextSize"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="HeaderTextFont">System</PropertyVal>
+  <PropertyVal Name="DefaultCellTextSize"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="DefaultCellTextFont">System</PropertyVal>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField">NombreTarea</PropertyVal>
+  <PropertyVal Name="DataSource">DataControl1</PropertyVal>
+  <PropertyVal Name="AutoHideScrollbars">True</PropertyVal>
+  <PropertyVal Name="ColumnsResizable">True</PropertyVal>
+  <PropertyVal Name="SelectionType"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="RequiresSelection">False</PropertyVal>
+  <PropertyVal Name="EnableDragReorder">False</PropertyVal>
+  <PropertyVal Name="EnableDrag">False</PropertyVal>
+  <PropertyVal Name="Hierarchical">False</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="_ScrollOffset"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="_ScrollWidth"><Hex bytes="2">2D31</Hex></PropertyVal>
+  <PropertyVal Name="DefaultRowHeight"><Hex bytes="2">2D31</Hex></PropertyVal>
+  <PropertyVal Name="GridLinesVertical"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="GridLinesHorizontal"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="ScrollBarVertical">True</PropertyVal>
+  <PropertyVal Name="ScrollbarHorizontal">True</PropertyVal>
+  <PropertyVal Name="HeadingIndex"><Hex bytes="2">2D31</Hex></PropertyVal>
+  <PropertyVal Name="InitialValue"></PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="HasHeading">True</PropertyVal>
+  <PropertyVal Name="ColumnWidths">50,150,0,80,60,60,180</PropertyVal>
+  <PropertyVal Name="ColumnCount"><Hex bytes="1">38</Hex></PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="3">313937</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="3">373237</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="2">3533</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="2">3230</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">Listbox</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">ListaTareas</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <ControlIndex>7</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>Timer</ControlClass>
+  <ItemName>Timer</ItemName>
+  <PropertyVal Name="Width"><Hex bytes="2">3332</Hex></PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3332</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Period"><Hex bytes="5">3630303030</Hex></PropertyVal>
+  <PropertyVal Name="Mode"><Hex bytes="1">32</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="2">3430</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="3">353630</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">Timer</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">Timer1</PropertyVal>
+  <ControlIndex>8</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>TextField</ControlClass>
+  <ItemName>TextField</ItemName>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutomaticallyCheckSpelling">False</PropertyVal>
+  <PropertyVal Name="Alignment"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="AcceptTabs">False</PropertyVal>
+  <PropertyVal Name="LimitText"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="ReadOnly">True</PropertyVal>
+  <PropertyVal Name="Mask"></PropertyVal>
+  <PropertyVal Name="Text"></PropertyVal>
+  <PropertyVal Name="CueText"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">False</PropertyVal>
+  <PropertyVal Name="Format"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="BackColor"><Hex bytes="8">3136373737323135</Hex></PropertyVal>
+  <PropertyVal Name="TextColor"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="Password">False</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">37</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3232</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="2">3633</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="2">3133</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="1">38</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">TextField</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">Tiempo</PropertyVal>
+  <ControlIndex>9</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>TextField</ControlClass>
+  <ItemName>TextField</ItemName>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutomaticallyCheckSpelling">False</PropertyVal>
+  <PropertyVal Name="Alignment"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="AcceptTabs">False</PropertyVal>
+  <PropertyVal Name="LimitText"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="ReadOnly">True</PropertyVal>
+  <PropertyVal Name="Mask"></PropertyVal>
+  <PropertyVal Name="Text"></PropertyVal>
+  <PropertyVal Name="CueText"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">False</PropertyVal>
+  <PropertyVal Name="Format"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="BackColor"><Hex bytes="8">3136373737323135</Hex></PropertyVal>
+  <PropertyVal Name="TextColor"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="Password">False</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">38</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3232</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="2">3539</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="2">3133</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="3">313338</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">TextField</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">Tiempo2</PropertyVal>
+  <ControlIndex>10</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>TextArea</ControlClass>
+  <ItemName>TextArea</ItemName>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutomaticallyCheckSpelling">False</PropertyVal>
+  <PropertyVal Name="Alignment"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="AcceptTabs">False</PropertyVal>
+  <PropertyVal Name="LimitText"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="ReadOnly">True</PropertyVal>
+  <PropertyVal Name="Mask"></PropertyVal>
+  <PropertyVal Name="Text"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="LineSpacing">1.0</PropertyVal>
+  <PropertyVal Name="LineHeight">0.0</PropertyVal>
+  <PropertyVal Name="HideSelection">True</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Format"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="BackColor"><Hex bytes="8">3136373737323135</Hex></PropertyVal>
+  <PropertyVal Name="TextColor"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="Styled">True</PropertyVal>
+  <PropertyVal Name="ScrollbarVertical">True</PropertyVal>
+  <PropertyVal Name="ScrollbarHorizontal">False</PropertyVal>
+  <PropertyVal Name="Multiline">True</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="1">39</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3630</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="3">323630</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="3">323737</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="3">343737</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">TextArea</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">TextArea1</PropertyVal>
+  <ControlIndex>11</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>TextField</ControlClass>
+  <ItemName>TextField</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="AutomaticallyCheckSpelling">False</PropertyVal>
+  <PropertyVal Name="Alignment"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="AcceptTabs">False</PropertyVal>
+  <PropertyVal Name="LimitText"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="ReadOnly">True</PropertyVal>
+  <PropertyVal Name="Mask"></PropertyVal>
+  <PropertyVal Name="Text"></PropertyVal>
+  <PropertyVal Name="CueText"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">False</PropertyVal>
+  <PropertyVal Name="Format"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="BackColor"><Hex bytes="8">3136373737323135</Hex></PropertyVal>
+  <PropertyVal Name="TextColor"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="UseFocusRing">True</PropertyVal>
+  <PropertyVal Name="Password">False</PropertyVal>
+  <PropertyVal Name="Border">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="2">3130</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3232</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="2">3630</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="2">3133</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="2">3733</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">TextField</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">Tiempo1</PropertyVal>
+  <ControlIndex>12</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+ <Control>
+  <ControlClass>PushButton</ControlClass>
+  <ItemName>PushButton</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="TextUnit">0</PropertyVal>
+  <PropertyVal Name="TextSize">0.0</PropertyVal>
+  <PropertyVal Name="TextFont">System</PropertyVal>
+  <PropertyVal Name="ButtonStyle">0</PropertyVal>
+  <PropertyVal Name="AutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="HelpTag"></PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="Cancel">False</PropertyVal>
+  <PropertyVal Name="Default">False</PropertyVal>
+  <PropertyVal Name="Caption">Ejecutar Timer</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabIndex"><Hex bytes="2">3131</Hex></PropertyVal>
+  <PropertyVal Name="TabPanelIndex"><Hex bytes="1">30</Hex></PropertyVal>
+  <PropertyVal Name="LockBottom">False</PropertyVal>
+  <PropertyVal Name="LockRight">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height"><Hex bytes="2">3232</Hex></PropertyVal>
+  <PropertyVal Name="Width"><Hex bytes="2">3837</Hex></PropertyVal>
+  <PropertyVal Name="Top"><Hex bytes="3">333136</Hex></PropertyVal>
+  <PropertyVal Name="Left"><Hex bytes="3">333437</Hex></PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">PushButton</PropertyVal>
+  <PropertyVal Name="Index"><Hex bytes="11">2D32313437343833363438</Hex></PropertyVal>
+  <PropertyVal Name="Name">EjecutarTimer</PropertyVal>
+  <ControlIndex>13</ControlIndex>
+  <Locked>0</Locked>
+ </Control>
+</block>
+<block type="ExternalCode" ID="126654463">
+ <ObjName>Funciones</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <FullPath>C:\XOJO\Mercurial\ProgramadorTareas\ProgramadorTareas_Version1(WinXP-)\Funciones.xojo_binary_code</FullPath>
+ <PartialPath>Funciones.xojo_binary_code</PartialPath>
+ <SaveInfo><Hex bytes="129">00F1D1730102010000000061433A5C584F4A4F5C4D657263757269616C5C50726F6772616D61646F725461726561735C50726F6772616D61646F725461726561735F56657273696F6E312857696E58502D295C46756E63696F6E65732E786F6A6F5F62696E6172795F636F64650300000000010004000000000100000000000000</Hex></SaveInfo>
+</block>
+<block type="UIState" ID="0">
+ <WindowState>
+  <Editors>
+   <EditorCount>1</EditorCount>
+   <Editor>
+    <EditorIndex>0</EditorIndex>
+    <EditorLocation>Window1.Controls.ListaTareas.CellLostFocus</EditorLocation>
+    <EditorPath></EditorPath>
+    <EditingPartID>1609285631</EditingPartID>
+   </Editor>
+   <SelectedTab>0</SelectedTab>
+  </Editors>
+ </WindowState>
+</block>
+</RBProject>
